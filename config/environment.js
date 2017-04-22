@@ -7,11 +7,12 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     firebase: {
-      apiKey: 'xyz',
-      authDomain: 'YOUR-FIREBASE-APP.firebaseapp.com',
-      databaseURL: 'https://YOUR-FIREBASE-APP.firebaseio.com',
-      storageBucket: 'YOUR-FIREBASE-APP.appspot.com',
-      messagingSenderId: '1234'
+      apiKey: "AIzaSyB7H5Zl1_blhrwvWgVji2c_KLTdO4jsy3g",
+      authDomain: "kitabu-hub.firebaseapp.com",
+      databaseURL: "https://kitabu-hub.firebaseio.com",
+      projectId: "kitabu-hub",
+      storageBucket: "kitabu-hub.appspot.com",
+      messagingSenderId: "1074051614434"
     },
 
     // if using ember-cli-content-security-policy

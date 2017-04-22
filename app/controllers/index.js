@@ -2,14 +2,12 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
 
-  headerMessage: 'coming soon',
+  headerMessage: 'Coming Soon',
   responseMessage: '',
   emailAddress: '',
 
-  /enables invitation button if email is valid/
   isValid: Ember.computed.match('emailAddress', /^.+@.+\..+$/),
-  isDisabled: Ember.computed.not('isValid')
-
+  isDisabled: Ember.computed.not('isValid'),
 
   actions: {
 
