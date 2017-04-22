@@ -1,7 +1,6 @@
 # kitabu-hub
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application enables users to be able to add their emails for invitations to launch dates of a book.
 
 ## Prerequisites
 
@@ -24,10 +23,7 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+* Or visit https://kitabu-hub.firebaseapp.com
 
 ### Running Tests
 
@@ -41,8 +37,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
-
+The site is deployed to firebase. visit this link: https://kitabu-hub.firebaseapp.com
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
