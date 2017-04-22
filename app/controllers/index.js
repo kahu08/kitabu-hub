@@ -17,7 +17,12 @@ export default Ember.Controller.extend({
       const newInvitation = this.store.createRecord('invitation', {
         email: email
       });
-      newInvitation.save();
+      //used the new ES2015 method => for promises for dbsaving//
+      newInvitation.save().then((response) => {
+        //retreiving the id from the database// 
+        this.set('responseMessage', `Thank you! We saved your email address with the following id: ${response.get('id')}`);
+        this.set('emailAddress', );
+      });
 
       this.set('responseMessage', `Thank you! We have just saved your email address: ${this.get('emailAddress')}`);
       this.set('emailAddress', '');
