@@ -7,13 +7,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {{#link-to 'index' class="navbar-brand"}}Kitabu-hub{{/link-to}}
+      {{#link-to 'index' class="navbar-brand" }}Kitabu-hub{{/link-to}}
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav">
-        {{#link-to 'index' tagName="li"}}<a href>Home</a>{{/link-to}}
-        {{#link-to 'about' tagName="li"}}<a href>About</a>{{/link-to}}
+        {{#link-to 'index' tagName="li" }}<a href>Home</a>{{/link-to}}
+        {{#link-to 'libraries' tagName="li" }}<a href="">Libraries</a>{{/link-to}}
+        {{#link-to 'about' tagName="li" }}<a href>About</a>{{/link-to}}
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -22,7 +23,7 @@
             Admin<span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-          {{#link-to 'admin.invitations' tagName="li"}}<a href="">Invitations</a>{{/link-to}}
+            {{#link-to 'admin.invitations' tagName="li" }}<a href="">Invitations</a>{{/link-to}}
           </ul>
         </li>
       </ul>
